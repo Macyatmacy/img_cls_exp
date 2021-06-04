@@ -49,7 +49,7 @@ The figure below is our demo interface. As the app use camera, the app is actual
 
 We have train 4 models, "pn_model.tflite" and "pn_sub_model.tflite" are for ChestXray2017 dataset, with the latter account for subclass of pnenmonia. The "oct.tflite" and "oct_sub.tflite" are similar. You can check them in the folder Models.
 
-## Task 2 Construct a CI/CD demo for ML based on Sagemaker
+## Task 2 Construct a CI/CD demo for ML based on Sagemaker and Github
 
 Diagnose based on medical images may not be enough reliable and popularized nowadays, but it's promissing that ML may help the medical field a lot. Automatic image classification can assist doctors who may be overwhelmed a large amout of cases everyday, to make a decision quickly and avoid diagnose. And machine may even do better than human on some diseases. 
 
