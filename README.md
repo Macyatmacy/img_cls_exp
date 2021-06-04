@@ -1,4 +1,4 @@
-# img_cls_exp
+# Medical Image Classification Proj. 
 
 Hello!
 
