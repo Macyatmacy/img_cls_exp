@@ -71,7 +71,7 @@ We are trying to use AWS Step Functions SDK to automatic the training to deployi
 
 Our target workflow is to realize the following workflow for image classification.
 
-<img src="Images/Workflow.PNG" width="480" height="434" alt="workflow"/><br/>
+<img src="Images/Workflow.PNG" width="490" height="434" alt="workflow"/><br/>
 
 
 We haven't closed this task in current stage. We will update it soon.
