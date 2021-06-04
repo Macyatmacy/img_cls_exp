@@ -1,4 +1,4 @@
-# Medical Image Classification Proj. 
+# Medical Image Classification Project 
 
 Hello!
 
