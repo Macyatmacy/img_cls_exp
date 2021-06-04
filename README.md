@@ -70,7 +70,8 @@ The current accuracy of task 2 is a bit lower than task 1, we have tuned it a lo
 We are trying to use AWS Step Functions SDK to automatic the training to deploying process with one click, integrating Glue job and Lambda function. We want to use Glue job to simplify data preparation, and use Lambda function to add a condition (e.g. accuracy threshold) for model deploy.
 
 Our target workflow is to realize the following workflow for image classification.
-![workflow](Images/Workflow.PNG)
+
+<img src="Images/orkflow.PNG" width="310" height="340" alt="output"/><br/>
 
 
 We haven't closed this task in current stage. We will update it later.
