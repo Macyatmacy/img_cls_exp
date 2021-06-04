@@ -1,3 +1,5 @@
 # img_cls_exp
 
-hello!
+Hello!
+
+This is a repo for a workshop on applied computer vision.
