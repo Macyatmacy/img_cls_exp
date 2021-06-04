@@ -45,7 +45,7 @@ The procedure of task 1 is straightforeward.
 
 The figure below is our demo interface. As the app use camera, the app is actually not so good as its model's accuracy (generally > 90%). 
 
-<img src="Images/UI.PNG" width="200" height="200" alt="output"/><br/>
+<img src="Images/OUTPUT.jpg" width="200" height="200" alt="output"/><br/>
 
 
 ## References
