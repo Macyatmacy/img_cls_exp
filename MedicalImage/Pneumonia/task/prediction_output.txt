@@ -1,120 +1,120 @@
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-pneumonia
-pneumonia
-normal
-pneumonia
-normal
-normal
-normal
-pneumonia
-normal
-normal
-normal
-normal
-normal
-normal
-normal
-pneumonia
-pneumonia
-pneumonia
-pneumonia
-normal
-pneumonia
-pneumonia
-pneumonia
-pneumonia
-pneumonia
-normal
-pneumonia
-pneumonia
-normal
-pneumonia
-pneumonia
-pneumonia
-pneumonia
-pneumonia
-pneumonia
-pneumonia
-pneumonia
-pneumonia
-pneumonia
-pneumonia
-pneumonia
-pneumonia
-pneumonia
-normal
-normal
-pneumonia
-normal
-pneumonia
-pneumonia
-pneumonia
-pneumonia
-pneumonia
-pneumonia
-pneumonia
-pneumonia
-normal
-pneumonia
-pneumonia
-pneumonia
-pneumonia
+IM-0115-0001.jpeg normal
+IM-0117-0001.jpeg normal
+IM-0119-0001.jpeg normal
+IM-0122-0001.jpeg normal
+IM-0125-0001.jpeg normal
+IM-0127-0001.jpeg normal
+IM-0128-0001.jpeg normal
+IM-0129-0001.jpeg normal
+IM-0131-0001.jpeg normal
+IM-0133-0001.jpeg normal
+IM-0135-0001.jpeg normal
+IM-0137-0001.jpeg normal
+IM-0140-0001.jpeg normal
+IM-0141-0001.jpeg normal
+IM-0143-0001.jpeg normal
+IM-0145-0001.jpeg normal
+IM-0147-0001.jpeg normal
+IM-0149-0001.jpeg normal
+IM-0151-0001.jpeg normal
+IM-0152-0001.jpeg normal
+IM-0154-0001.jpeg normal
+IM-0156-0001.jpeg normal
+IM-0158-0001.jpeg normal
+IM-0160-0001.jpeg normal
+IM-0162-0001.jpeg normal
+IM-0164-0001.jpeg normal
+IM-0166-0001.jpeg normal
+IM-0168-0001.jpeg normal
+IM-0170-0001.jpeg normal
+IM-0172-0001.jpeg normal
+IM-0176-0001.jpeg normal
+IM-0177-0001.jpeg normal
+IM-0178-0001.jpeg normal
+IM-0180-0001.jpeg normal
+IM-0182-0001.jpeg normal
+IM-0183-0001.jpeg normal
+IM-0185-0001.jpeg normal
+IM-0187-0001.jpeg normal
+IM-0189-0001.jpeg normal
+IM-0191-0001.jpeg normal
+IM-0193-0001.jpeg normal
+IM-0195-0001.jpeg normal
+IM-0199-0001.jpeg normal
+IM-0201-0001.jpeg normal
+IM-0203-0001.jpeg normal
+IM-0205-0001.jpeg normal
+IM-0206-0001.jpeg normal
+IM-0207-0001.jpeg normal
+IM-0209-0001.jpeg normal
+IM-0210-0001.jpeg normal
+IM-0211-0001.jpeg normal
+IM-0213-0001.jpeg normal
+IM-0214-0001.jpeg normal
+IM-0215-0001.jpeg normal
+IM-0216-0001.jpeg normal
+IM-0217-0001.jpeg normal
+IM-0218-0001.jpeg normal
+IM-0219-0001.jpeg normal
+IM-0220-0001.jpeg normal
+IM-0221-0001.jpeg normal
+person10_bacteria_43.jpeg pneumonia
+person11_bacteria_45.jpeg pneumonia
+person12_bacteria_46.jpeg normal
+person12_bacteria_47.jpeg pneumonia
+person12_bacteria_48.jpeg normal
+person13_bacteria_49.jpeg normal
+person13_bacteria_50.jpeg normal
+person14_bacteria_51.jpeg pneumonia
+person15_bacteria_52.jpeg normal
+person16_bacteria_53.jpeg normal
+person16_bacteria_54.jpeg normal
+person16_bacteria_55.jpeg normal
+person17_bacteria_56.jpeg normal
+person18_bacteria_57.jpeg normal
+person19_bacteria_58.jpeg normal
+person19_bacteria_59.jpeg pneumonia
+person19_bacteria_60.jpeg pneumonia
+person19_bacteria_61.jpeg pneumonia
+person19_bacteria_62.jpeg pneumonia
+person19_bacteria_63.jpeg normal
+person1_bacteria_1.jpeg pneumonia
+person1_bacteria_2.jpeg pneumonia
+person20_bacteria_64.jpeg pneumonia
+person20_bacteria_66.jpeg pneumonia
+person20_bacteria_67.jpeg pneumonia
+person20_bacteria_69.jpeg normal
+person20_bacteria_70.jpeg pneumonia
+person21_bacteria_72.jpeg pneumonia
+person21_bacteria_73.jpeg normal
+person22_bacteria_74.jpeg pneumonia
+person22_bacteria_76.jpeg pneumonia
+person22_bacteria_77.jpeg pneumonia
+person23_bacteria_78.jpeg pneumonia
+person23_bacteria_79.jpeg pneumonia
+person23_bacteria_80.jpeg pneumonia
+person23_bacteria_81.jpeg pneumonia
+person23_bacteria_82.jpeg pneumonia
+person23_bacteria_83.jpeg pneumonia
+person23_bacteria_84.jpeg pneumonia
+person2_bacteria_3.jpeg pneumonia
+person2_bacteria_4.jpeg pneumonia
+person3_bacteria_10.jpeg pneumonia
+person3_bacteria_11.jpeg pneumonia
+person3_bacteria_12.jpeg normal
+person3_bacteria_13.jpeg normal
+person4_bacteria_14.jpeg pneumonia
+person5_bacteria_15.jpeg normal
+person5_bacteria_16.jpeg pneumonia
+person5_bacteria_17.jpeg pneumonia
+person5_bacteria_19.jpeg pneumonia
+person6_bacteria_22.jpeg pneumonia
+person7_bacteria_24.jpeg pneumonia
+person7_bacteria_25.jpeg pneumonia
+person7_bacteria_28.jpeg pneumonia
+person7_bacteria_29.jpeg pneumonia
+person8_bacteria_37.jpeg normal
+person9_bacteria_38.jpeg pneumonia
+person9_bacteria_39.jpeg pneumonia
+person9_bacteria_40.jpeg pneumonia
+person9_bacteria_41.jpeg pneumonia
