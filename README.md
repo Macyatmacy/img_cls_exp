@@ -38,7 +38,7 @@ The procedure of task 1 is straightforeward.
 - Step 1: upload images into your Google Drive, with images of the same labels in the same folder and the label as folder's name.
 - Step 2: mount your data to your Colab and run the [notebook](ColabNotebook/Medical_Classification_with_TFLite_Model_Maker.ipynb) to train a model, with model with ".tflite" format as output. 
 - Step 3: set up the skeleton app in your Android Studio.
-- Step 4: load the model in to the "start" part of the app, as shown in the figure below.
+- Step 4: [load the model](https://github.com/Macyatmacy/img_cls_exp/blob/6b5b88c981d75237760eb738172502a54a552b39/Images/Load_model.PNG) in to the "start" part of the app.
 ![Load model]()
 
 ## References
