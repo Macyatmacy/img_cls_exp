@@ -74,7 +74,7 @@ Our target workflow is to realize the following workflow for image classificatio
 <img src="Images/Workflow.PNG" width="480" height="434" alt="workflow"/><br/>
 
 
-We haven't closed this task in current stage. We will update it later.
+We haven't closed this task in current stage. We will update it soon.
 
 ## References
 - Task 1 is based on [a tutorial offered by Tensorflow website](https://codelabs.developers.google.com/codelabs/recognize-flowers-with-tensorflow-on-android/#0) and [the skeleton app packages](https://github.com/hoitab/TFLClassify.git) by Hoi Lam.
