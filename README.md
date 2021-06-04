@@ -76,9 +76,9 @@ Our target workflow is to realize the following workflow for image classificatio
 We haven't closed this task in current stage. We will update it later.
 
 ## References
-- task 1 is based on [a tutorial offered by Tensorflow website](https://codelabs.developers.google.com/codelabs/recognize-flowers-with-tensorflow-on-android/#0) and [the skeleton app packages](https://github.com/hoitab/TFLClassify.git) by Hoi Lam.
-- task 2 is based on a [project in coursera](https://github.com/maulikpokiya/Machine-Learning/tree/58a7fb3335ac734f6cf76b2536e4e4ffcdfc44a4/Coursera%20TensorFlow%20with%20Sagemaker).
-- task 3 is based on a [sagemaker example with step function](https://github.com/Macyatmacy/amazon-sagemaker-examples/tree/master/step-functions-data-science-sdk/automate_model_retraining_workflow).
+- Task 1 is based on [a tutorial offered by Tensorflow website](https://codelabs.developers.google.com/codelabs/recognize-flowers-with-tensorflow-on-android/#0) and [the skeleton app packages](https://github.com/hoitab/TFLClassify.git) by Hoi Lam.
+- Task 2 is based on a [project in coursera](https://github.com/maulikpokiya/Machine-Learning/tree/58a7fb3335ac734f6cf76b2536e4e4ffcdfc44a4/Coursera%20TensorFlow%20with%20Sagemaker).
+- Task 3 is based on a [sagemaker example with step function](https://github.com/Macyatmacy/amazon-sagemaker-examples/tree/master/step-functions-data-science-sdk/automate_model_retraining_workflow).
 
 ## Group Members
 Macy and Yuhan
