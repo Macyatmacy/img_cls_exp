@@ -49,6 +49,7 @@ The figure below is our demo interface. As the app use camera, the app is actual
 
 We have train 4 models, "pn_model.tflite" and "pn_sub_model.tflite" are for ChestXray2017 dataset, with the latter account for subclass of pnenmonia. The "oct.tflite" and "oct_sub.tflite" are similar. You can check them in the folder Models.
 
+## Task 2 Construct a CI/CD demo for ML based on Sagemaker
 
 ## References
 TFlite-based app is based on [a tutorial offered by Tensorflow website](https://codelabs.developers.google.com/codelabs/recognize-flowers-with-tensorflow-on-android/#0) and [the skeleton app packages](https://github.com/hoitab/TFLClassify.git) by Hoi Lam.
