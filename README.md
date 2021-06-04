@@ -20,5 +20,5 @@ This is a repo for a workshop on applied computer vision. We aims at develop an 
 We use two datasets from [kaggle](https://data.mendeley.com/datasets/rscbjbr9sj/2), the ChestXray2017 dataset and OCT2017 dataset, regarding diagnose of pneumonia and common treatable blinding retinal diseases respetively.
 
 The ChestXray2017 includes three classes: normal, bacterial pneumonia and viral pneumonia, as shown in the figure below.
-![ChestXray2017]()
+![ChestXray2017](Images/ChestXray2017.PNG)
 
