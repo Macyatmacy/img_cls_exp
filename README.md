@@ -69,7 +69,7 @@ The current accuracy of task 2 is a bit lower than task 1, we have tuned it a lo
 ## Task 3 Build a Step function workflow with AWS Step Functions SDK
 We are trying to use AWS Step Functions SDK to automatic the training to deploying process with one click, integrating Glue job and Lambda function. We want to use Glue job to simplify data preparation, and use Lambda function to add a condition (e.g. accuracy threshold) for model deploy.
 
-Our target workflow is to realize the following workflow for image classification.
+Our target workflow is to realize the following workflow for image classification. AWS Glue is a serverless data integration service that makes it easy to discover, prepare, and combine data. We want to use it to simplify ETL workflows and save money on data processing. And we will try to add the lambda function to evaluate if a model is good enough for deployment. In the future, will will try to add a trigger function so that only when we have enough data drift will we retrain a model.
 
 <img src="Images/Workflow.PNG" width="490" height="434" alt="workflow"/><br/>
 
