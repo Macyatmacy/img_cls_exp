@@ -23,6 +23,7 @@ The ChestXray2017 dataset includes 3 classes: normal, bacterial pneumonia and vi
 ![ChestXray2017](Images/ChestXray2017.PNG)
 
 The OCT2017 dataset includes 4 classes: normal, CNV(choroidal neovascularization), drusen and DME(diabetic macular edema), as shown in the figure below.
+
 ![OCT2017](Images/OCT2017.PNG)
 
 As the main purpose of our experiment is to try new tools and get familiar with ML workflow. We only use 1000 images of each class.
