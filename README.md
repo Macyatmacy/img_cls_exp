@@ -47,7 +47,7 @@ The figure below is our demo interface. As the app use camera, the app is actual
 
 <img src="Images/OUTPUT.jpg" width="108" height="212" alt="output"/><br/>
 
-We have train 4 models, "pn_model.tflite" and "pn_sub_model.tflite" is for ChestXray2017 dataset, with the latter account for subclass of pnenmonia. The "oct.tflite" and "oct_sub.tflite" are similar. You can check them in the folder Models.
+We have train 4 models, "pn_model.tflite" and "pn_sub_model.tflite" are for ChestXray2017 dataset, with the latter account for subclass of pnenmonia. The "oct.tflite" and "oct_sub.tflite" are similar. You can check them in the folder Models.
 
 
 ## References
