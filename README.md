@@ -29,7 +29,7 @@ The OCT2017 dataset includes 4 classes: normal, CNV(choroidal neovascularization
 
 As the main purpose of our experiment is to try new tools and get familiar with ML workflow. We only use 1000 images of each class.
 
-Due to the differences of configuration between different cloud platforms, for convenience, we build our TFlite-based app through Google Colab and construct our first CI/CD demo through AWS Sagemaker. Data for these two tasks are stored in Google Drive and AWS S3 respectively.
+Due to the differences of configuration between cloud platforms, for convenience, we build our TFlite-based app through Google Colab and construct our first CI/CD demo through AWS Sagemaker. Data for these two tasks are stored in Google Drive and AWS S3 respectively.
 
 ## Task 1 Develop an android app customized by new model
 
@@ -38,7 +38,7 @@ The procedure of task 1 is straightforeward.
 - Step 1: upload images into your Google Drive, with images of the same labels in the same folder and the label as folder's name.
 - Step 2: mount your data to your Colab and run the [notebook](Notebooks/Medical_Classification_with_TFLite_Model_Maker.ipynb) to train a model, with model with ".tflite" format as output. 
 - Step 3: set up the skeleton app in your Android Studio.
-- Step 4: [load the model](Images/Load_model.PNG) in to the "start" part of the app.
+- Step 4: [load the model](Images/Load_model.PNG) into the "start" part of the app.
 - Step 5: customize the "MainActivity.kt" file [labeled with TODO](Images/TODO.PNG) by the app author, you may need to change the codes under each "TODO" according to your model, and import your model.
 - Step 6: run you app with a virtual device or with your own android phone, you need to authorize USB debugging in your phone.
 - Step 7: you can further design your UI in [layout, drawable and ic_launcher](Images/UI.PNG). 
@@ -47,7 +47,7 @@ The figure below is our demo interface. As the app use camera, the app is actual
 
 <img src="Images/OUTPUT.jpg" width="216" height="424" alt="output"/><br/>
 
-We have train 4 models, "pn_model.tflite" and "pn_sub_model.tflite" are for ChestXray2017 dataset, with the latter account for subclass of pnenmonia. The "oct.tflite" and "oct_sub.tflite" are similar. You can check them in the folder Models.
+We have trained 4 models, "pn_model.tflite" and "pn_sub_model.tflite" are for ChestXray2017 dataset, with the latter account for subclass of pnenmonia. The "oct.tflite" and "oct_sub.tflite" are similar. You can check them in the folder Models.
 
 ## Task 2 Construct a CI/CD demo for ML based on Sagemaker and Github
 
