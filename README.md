@@ -41,7 +41,12 @@ The procedure of task 1 is straightforeward.
 - Step 4: [load the model](Images/Load_model.PNG) in to the "start" part of the app.
 - Step 5: customize the "MainActivity.kt" file [labeled with TODO](Images/TODO.PNG) by the app author, you may need to change the codes under each "TODO" according to your model, and import your model.
 - Step 6: run you app with a virtual device or with your own android phone, you need to authorize USB debugging in your phone.
-- Step 7: you can further design your UI 
+- Step 7: you can further design your UI in [layout, drawable and ic_launcher](Images/UI.PNG). 
+
+The figure below is our demo interface. As the app use camera, the app is actually not so good as its model's accuracy (generally > 90%). 
+
+![interface](Images/OUTPUT.PNG)
+
 
 ## References
 TFlite-based app is based on [a tutorial offered by Tensorflow website](https://codelabs.developers.google.com/codelabs/recognize-flowers-with-tensorflow-on-android/#0) and [the skeleton app packages](https://github.com/hoitab/TFLClassify.git) by Hoi Lam.
