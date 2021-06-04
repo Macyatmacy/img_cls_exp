@@ -39,7 +39,9 @@ The procedure of task 1 is straightforeward.
 - Step 2: mount your data to your Colab and run the [notebook](ColabNotebook/Medical_Classification_with_TFLite_Model_Maker.ipynb) to train a model, with model with ".tflite" format as output. 
 - Step 3: set up the skeleton app in your Android Studio.
 - Step 4: [load the model](Images/Load_model.PNG) in to the "start" part of the app.
-- Step 5: 
+- Step 5: customize the "MainActivity.kt" file [labeled with TODO](Images/TODO.PNG) by the app author, you may need to change the codes under each "TODO" according to your model, and import your model.
+- Step 6: run you app with a virtual device or with your own android phone, you need to authorize USB debugging in your phone.
+- Step 7: you can further design your UI 
 
 ## References
 TFlite-based app is based on [a tutorial offered by Tensorflow website](https://codelabs.developers.google.com/codelabs/recognize-flowers-with-tensorflow-on-android/#0) and [the skeleton app packages](https://github.com/hoitab/TFLClassify.git) by Hoi Lam.
