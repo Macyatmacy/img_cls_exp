@@ -2,7 +2,7 @@
 
 Hello!
 
-This is a repo for a workshop on applied computer vision. We aim at develop an mobile app based on TFlite model that can help medical diagnose at first. And we further develops a machine learning(ML) workflow that can update model and return prediction outcomes automatically, through our first CI/CD demo based on AWS platform and Github.
+This is a repo for a workshop on applied computer vision. We aim at develop a mobile app based on TFlite model that can help medical diagnose at first. And we further develops a machine learning(ML) workflow that can update model and return prediction outcomes automatically, through our first CI/CD demo based on AWS platform and Github.
 
 
 ## Platforms and tools.
