@@ -11,13 +11,13 @@ lint:
 	pylint --disable=R,C,W0621  Notebooks/*.py
     
 updatePrediction:
-    python Notebooks/updatePrediction.py
+    	python Notebooks/updatePrediction.py
     
 updateModel:
-    python Notebooks/updateModel.py  
+    	python Notebooks/updateModel.py  
 
 updateModelPrediction:
-    python Notebooks/updateModelPrediction.py
+    	python Notebooks/updateModelPrediction.py
     
 
 all: install format lint
