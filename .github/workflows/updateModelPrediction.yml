@@ -1,4 +1,4 @@
-name: update sagemaker model and endpoint with data up to date
+name: update endpoint and return prediction
 
 on: [push]
 
