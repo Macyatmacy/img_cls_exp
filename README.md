@@ -1,5 +1,5 @@
 [![configuration](https://github.com/Macyatmacy/img_cls_exp/actions/workflows/main.yml/badge.svg)](https://github.com/Macyatmacy/img_cls_exp/actions/workflows/main.yml)
-
+[![update sagemaker model and endpoint with data up to date](https://github.com/Macyatmacy/img_cls_exp/actions/workflows/updateModel.yml/badge.svg)](https://github.com/Macyatmacy/img_cls_exp/actions/workflows/updateModel.yml)
 # Medical Image Classification Experiment
 
 Hello!
