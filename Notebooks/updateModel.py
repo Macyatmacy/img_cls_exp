@@ -10,8 +10,9 @@ from sagemaker.s3 import S3Downloader
 import random
 import shutil
 
-session = sagemaker.Session() 
-region = boto3.Session().region_name
+region = 'us-east-2'
+session = sagemaker.Session()
+# region = boto3.Session().region_name
 bucket = session.default_bucket() 
 
 project_name = "pn_deploy"
