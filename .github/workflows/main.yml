@@ -1,4 +1,4 @@
-name: medical image classification experiment
+name: configuration
 
 on: [push]
 
