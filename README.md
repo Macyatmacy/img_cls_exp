@@ -51,7 +51,7 @@ We have trained 4 models, "pn_model.tflite" and "pn_sub_model.tflite" are for Ch
 
 ## Task 2 Construct a CI/CD demo for ML based on Sagemaker and Github
 
-Diagnose based on medical images may not be enough reliable and popularized nowadays, but it's promissing that ML may help the medical field a lot. Automatic image classification can assist doctors who may be overwhelmed a large amout of cases everyday, to make a decision quickly and avoid diagnose. And machine may even do better than human on some diseases. 
+Diagnose based on medical images may not be enough reliable and popularized nowadays, but it's promissing that ML may help the medical field a lot. Automatic image classification can assist doctors who may be overwhelmed a large amount of cases everyday, to make a decision quickly and avoid diagnose. And machine may even do better than human on some diseases. 
 
 We can assume that our ML model will face routine tasks as in many other ML usage scenarios, involving data drift and version control. In our first step of CI/CD, we want to build an semi-automatic workflow which can retain model with neweast data and return output automatically. 
 
