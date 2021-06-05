@@ -1,0 +1,12 @@
+boto3
+pylint
+pytest
+ipython
+black
+pytest-cov
+stepfunctions
+sagemaker
+uuid
+tensorflow
+argparse
+matplotlib
