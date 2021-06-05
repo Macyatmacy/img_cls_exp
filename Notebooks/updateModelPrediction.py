@@ -9,6 +9,8 @@ from sagemaker.tensorflow import TensorFlow
 from sagemaker.s3 import S3Downloader
 import random
 import shutil
+import tensorflow as tf
+import numpy as np
 
 session = sagemaker.Session() 
 region = boto3.Session().region_name
