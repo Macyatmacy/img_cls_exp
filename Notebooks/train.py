@@ -2,7 +2,6 @@
 import tensorflow as tf
 import argparse
 import os
-import json
 
 def create_model():
     model = tf.keras.models.Sequential([

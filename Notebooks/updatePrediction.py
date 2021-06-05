@@ -1,13 +1,13 @@
 import sagemaker 
 import boto3
-from sagemaker.s3 import S3Uploader
+# from sagemaker.s3 import S3Uploader
 from sagemaker.s3 import S3Downloader
 import tensorflow as tf
 import numpy as np
 
 session = sagemaker.Session() 
 bucket = session.default_bucket() 
-
+classes = ['normal', 'pneumonia']
 
 def get_file_list(bucket_name, prefix):
     s3 = boto3.resource('s3')

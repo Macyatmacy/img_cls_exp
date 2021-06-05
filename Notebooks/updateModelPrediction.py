@@ -1,12 +1,11 @@
-import sys
 # !{sys.executable} -m pip install --upgrade stepfunctions
 
 import boto3
 import sagemaker 
 from sagemaker.tensorflow import TensorFlow
-from sagemaker.amazon.amazon_estimator import image_uris
-from sagemaker.inputs import TrainingInput
-from sagemaker.s3 import S3Uploader
+# from sagemaker.amazon.amazon_estimator import image_uris
+# from sagemaker.inputs import TrainingInput
+# from sagemaker.s3 import S3Uploader
 from sagemaker.s3 import S3Downloader
 import random
 import shutil
@@ -85,7 +84,7 @@ def get_annotations(file_path, annotations={}):
     with open(file_path, 'r') as f:
         rows = f.read().splitlines()
 
-    for i, row in enumerate(rows):
+    for _, row in enumerate(rows):
         image_name, class_name = row.split(' ')
         image_name = image_name + '.jpeg'
         
@@ -94,12 +93,8 @@ def get_annotations(file_path, annotations={}):
     return annotations
 
 # read annotations
-annotations_normal={}
-annotations_pneumonia={}
-annotations_normal = get_annotations('/home/ec2-user/SageMaker/img_cls_exp/MedicalImage/Pneumonia/annotations/normal.txt',
-                                     annotations_normal)
-annotations_pneumonia = get_annotations('/home/ec2-user/SageMaker/img_cls_exp/MedicalImage/Pneumonia/annotations/pneumonia.txt',
-                                        annotations_pneumonia)
+annotations_normal = get_annotations('/home/ec2-user/SageMaker/img_cls_exp/MedicalImage/Pneumonia/annotations/normal.txt')
+annotations_pneumonia = get_annotations('/home/ec2-user/SageMaker/img_cls_exp/MedicalImage/Pneumonia/annotations/pneumonia.txt')
 
 total_count = len(annotations_normal.keys())
 print('Total normal examples', total_count)
@@ -110,7 +105,6 @@ print(next(iter(annotations_normal.items())))
 print(next(iter(annotations_pneumonia.items())))
 
 # split and copy file
-import os
 classes = ['normal', 'pneumonia']
 sets = ['train', 'validation']
 root_dir = '/home/ec2-user/SageMaker/img_cls_exp/MedicalImage/Pneumonia/custom_data'
@@ -171,6 +165,16 @@ estimator.fit(s3_data_path)
 
 predictor = estimator.deploy(initial_instance_count=1, instance_type='ml.m4.xlarge')
 print('\nModel Deployed!')
+
+def get_pred(image_path):
+    img = tf.keras.preprocessing.image.load_img(image_path, target_size=(224, 224))
+    img = tf.keras.preprocessing.image.img_to_array(img)
+    img = tf.keras.applications.mobilenet_v2.preprocess_input(img)
+    img = np.expand_dims(img, axis=0)
+
+    results = predictor.predict(img)
+    class_id = int(np.squeeze(results['predictions']) > 0.5)
+    return classes[class_id]
 
 # task link and list
 list_task = get_file_list(bucket, "pn_deploy/task/data")
