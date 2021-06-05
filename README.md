@@ -1,3 +1,5 @@
+[![configuration](https://github.com/Macyatmacy/img_cls_exp/actions/workflows/main.yml/badge.svg)](https://github.com/Macyatmacy/img_cls_exp/actions/workflows/main.yml)
+
 # Medical Image Classification Experiment
 
 Hello!
