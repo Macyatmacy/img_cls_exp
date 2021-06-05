@@ -8,10 +8,9 @@ format:
 
 lint:
 	pylint --disable=R,C  *.py
-	pylint --disable=R,C,W0621,W0104  Notebooks/updateModel.py
-	pylint --disable=R,C,W0621,W0104  updateModelPrediction.py
-	pylint --disable=R,C,W0621,W0104  train.py
-	pylint --disable=R,C,W0621  Notebooks/*.py
+	pylint --disable=R,C,W0621,W0104,W0102  Notebooks/updateModel.py
+	pylint --disable=R,C,W0621,W0104,W0102  Notebooks/updateModelPrediction.py
+	pylint --disable=R,C,W0621,W0104,W0102  Notebooks/train.py
 
 
 updatePrediction:
