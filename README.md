@@ -6,7 +6,7 @@
 
 Hello!
 
-This is a repo for a workshop on applied computer vision. We aim at develop a mobile app based on TFlite model that can help medical diagnose at first. And we further develops a machine learning(ML) workflow that can update model and return prediction outcomes automatically, through our first CI/CD demo based on AWS platform and Github.
+This is a repo for a workshop on applied computer vision. We aim at develop a mobile app based on TFlite model that can help medical diagnose at first. And we further develops a machine learning (ML) workflow that can update model and return prediction outcomes automatically, through our first CI/CD demo based on AWS platform and Github.
 
 
 ## Platforms and tools.
@@ -21,7 +21,7 @@ This is a repo for a workshop on applied computer vision. We aim at develop a mo
 
 ## Datasets:
 
-We use two datasets from [kaggle](https://data.mendeley.com/datasets/rscbjbr9sj/2), the ChestXray2017 dataset and OCT2017 dataset, regarding diagnose of pneumonia and common treatable blinding retinal diseases respectively.
+We use two datasets from [Kaggle](https://data.mendeley.com/datasets/rscbjbr9sj/2), the ChestXray2017 dataset and OCT2017 dataset, regarding diagnose of pneumonia and common treatable blinding retinal diseases respectively.
 
 The ChestXray2017 dataset includes 3 classes: normal, bacterial pneumonia and viral pneumonia, as shown in the figure below.
 
