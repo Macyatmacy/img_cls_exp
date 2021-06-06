@@ -3,14 +3,17 @@ name: aws configuration
 on: [push]
 
 jobs:
-  build:
-
+  deploy:
+    name: Upload to Amazon S3
     runs-on: ubuntu-latest
 
     steps:
-    - uses: aws-actions/configure-aws-credentials@v1
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Configure AWS credentials from Test account
+      uses: aws-actions/configure-aws-credentials@v1
       with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        # aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }} # if you have/need it
+        aws-access-key-id: ${{ sagemakermacy }}
+        aws-secret-access-key: ${{ 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 }}
         aws-region: us-east-2
